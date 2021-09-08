@@ -24,8 +24,7 @@ status-website:
     - title: Status
       href: /
 
-assignees: # Users to assign downtime issues (optional)
+assignees: 
   - JonathanStregger
   
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# https://upptime.js.org/docs/configuration
