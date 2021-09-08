@@ -9,11 +9,9 @@ sites:
   - name: MD3
     url: https://md3.hostdent.com
   - name: MT1
-    url: http://mt1.hostdent.com/ 
+    url: http://mt1.hostdent.com 
   - name: NS2
-    url: https://ns2.hostdent.com
-  - name: NS4
-    url: https://ns4.hostdent.com
+    url: http://ns2.hostdent.com
     
 status-website:
   # cname: status.hostdent.com
