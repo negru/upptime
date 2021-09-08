@@ -18,7 +18,7 @@ status-website:
   baseUrl: /upptime
   logoUrl: https://marketdental.com/public/images/favicons/safari-pinned-tab.svg
   name: HD & MD Status
-  introTitle: "**HD Status**"
+  introTitle: "**Status**"
   introMessage: HD & MD
   navbar:
     - title: Status
