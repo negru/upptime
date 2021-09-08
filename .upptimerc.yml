@@ -22,7 +22,7 @@ status-website:
   introMessage: HD & MD
   navbar:
     - title: Status
-      href: /
+      href: /upptime
 
 assignees: 
   - JonathanStregger
