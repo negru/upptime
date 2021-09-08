@@ -8,6 +8,8 @@ sites:
     url: https://md2.hostdent.com
   - name: MD3
     url: https://md3.hostdent.com
+  - name: MT1
+    url: http://mt1.hostdent.com/ 
   - name: NS2
     url: https://ns2.hostdent.com
   - name: NS4
