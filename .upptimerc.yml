@@ -8,7 +8,11 @@ sites:
     url: https://md2.hostdent.com
   - name: MD3
     url: https://md3.hostdent.com
-
+  - name: NS2
+    url: https://ns2.hostdent.com
+  - name: NS4
+    url: https://ns4.hostdent.com
+    
 status-website:
   # cname: status.hostdent.com
   baseUrl: /upptime
