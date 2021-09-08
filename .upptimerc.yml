@@ -3,7 +3,7 @@ repo: upptime
 
 sites:
   - name: MD1
-    url: https://md1.hostdent.com
+    url: http://md1.hostdent.com
   - name: MD2
     url: https://md2.hostdent.com
   - name: MD3
