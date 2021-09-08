@@ -12,10 +12,10 @@ sites:
 status-website:
   # cname: status.hostdent.com
   baseUrl: /upptime
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: HD Status
+  logoUrl: https://marketdental.com/public/images/favicons/safari-pinned-tab.svg
+  name: HD & MD Status
   introTitle: "**HD Status**"
-  introMessage: HD Status
+  introMessage: HD & MD
   navbar:
     - title: Status
       href: /
