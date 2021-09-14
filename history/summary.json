@@ -24,19 +24,19 @@
     "url": "https://md2.hostdent.com",
     "icon": "https://favicons.githubusercontent.com/md2.hostdent.com",
     "slug": "md-2",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 236,
-    "timeDay": 292,
-    "timeWeek": 236,
-    "timeMonth": 236,
-    "timeYear": 236,
+    "status": "up",
+    "uptime": "99.89%",
+    "uptimeDay": "99.28%",
+    "uptimeWeek": "99.89%",
+    "uptimeMonth": "99.89%",
+    "uptimeYear": "99.89%",
+    "time": 233,
+    "timeDay": 232,
+    "timeWeek": 233,
+    "timeMonth": 233,
+    "timeYear": 233,
     "dailyMinutesDown": {
-      "2021-09-14": 0
+      "2021-09-14": 10
     }
   },
   {
