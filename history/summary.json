@@ -4,9 +4,9 @@
     "url": "http://md1.hostdent.com",
     "icon": "https://favicons.githubusercontent.com/md1.hostdent.com",
     "slug": "md-1",
-    "status": "up",
+    "status": "down",
     "uptime": "99.80%",
-    "uptimeDay": "98.61%",
+    "uptimeDay": "98.60%",
     "uptimeWeek": "99.80%",
     "uptimeMonth": "99.80%",
     "uptimeYear": "99.80%",
@@ -16,6 +16,7 @@
     "timeMonth": 171,
     "timeYear": 171,
     "dailyMinutesDown": {
+      "2021-09-25": 0,
       "2021-09-24": 20,
       "2021-09-08": 30
     }
