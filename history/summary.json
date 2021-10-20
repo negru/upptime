@@ -62,19 +62,19 @@
     "url": "http://mt1.hostdent.com",
     "icon": "https://favicons.githubusercontent.com/mt1.hostdent.com",
     "slug": "mt-1",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 125,
-    "timeDay": 59,
-    "timeWeek": 66,
-    "timeMonth": 104,
-    "timeYear": 125,
+    "status": "up",
+    "uptime": "99.98%",
+    "uptimeDay": "99.28%",
+    "uptimeWeek": "99.90%",
+    "uptimeMonth": "99.98%",
+    "uptimeYear": "99.98%",
+    "time": 126,
+    "timeDay": 109,
+    "timeWeek": 77,
+    "timeMonth": 106,
+    "timeYear": 126,
     "dailyMinutesDown": {
-      "2021-10-20": 0
+      "2021-10-20": 10
     }
   },
   {
