@@ -63,19 +63,17 @@
     "icon": "https://favicons.githubusercontent.com/mt1.hostdent.com",
     "slug": "mt-1",
     "status": "up",
-    "uptime": "99.98%",
-    "uptimeDay": "99.28%",
-    "uptimeWeek": "99.90%",
-    "uptimeMonth": "99.98%",
-    "uptimeYear": "99.98%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 126,
     "timeDay": 109,
     "timeWeek": 77,
     "timeMonth": 106,
     "timeYear": 126,
-    "dailyMinutesDown": {
-      "2021-10-20": 10
-    }
+    "dailyMinutesDown": {}
   },
   {
     "name": "NS2",
