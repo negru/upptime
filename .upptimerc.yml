@@ -12,7 +12,9 @@ sites:
     url: http://mt1.hostdent.com 
   - name: NS2
     url: http://ns2.hostdent.com
-    
+  - name: NS4
+    url: http://ns4.hostdent.com
+        
 status-website:
   # cname: status.hostdent.com
   baseUrl: /upptime
