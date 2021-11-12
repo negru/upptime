@@ -95,44 +95,4 @@
     "timeYear": 120,
     "dailyMinutesDown": {}
   },
-  {
-    "name": "NS2",
-    "url": "http://ns2.hostdent.com",
-    "icon": "https://favicons.githubusercontent.com/ns2.hostdent.com",
-    "slug": "ns-2",
-    "status": "up",
-    "uptime": "99.91%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "99.21%",
-    "uptimeMonth": "99.82%",
-    "uptimeYear": "99.91%",
-    "time": 197,
-    "timeDay": 191,
-    "timeWeek": 184,
-    "timeMonth": 188,
-    "timeYear": 197,
-    "dailyMinutesDown": {
-      "2021-11-09": 80
-    }
-  },
-  {
-    "name": "NS44",
-    "url": "http://ns44.hostdent.com",
-    "icon": "https://favicons.githubusercontent.com/ns44.hostdent.com",
-    "slug": "ns-44",
-    "status": "down",
-    "uptime": "0.00%",
-    "uptimeDay": "0.00%",
-    "uptimeWeek": "0.00%",
-    "uptimeMonth": "0.00%",
-    "uptimeYear": "0.00%",
-    "time": 0,
-    "timeDay": 0,
-    "timeWeek": 0,
-    "timeMonth": 0,
-    "timeYear": 0,
-    "dailyMinutesDown": {
-      "2021-11-12": 0
-    }
-  }
 ]
