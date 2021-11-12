@@ -23,8 +23,8 @@ status-website:
   introTitle: "**Status**"
   introMessage: HD & MD
   navbar:
-    - title: Status
-      href: /upptime
+    - title: #
+      href: /
 
 NOTIFICATION_TELEGRAM: true
 NOTIFICATION_EMAIL: true
