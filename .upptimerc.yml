@@ -4,24 +4,34 @@ repo: upptime
 sites:
   - name: MD1
     url: http://md1.hostdent.com
-    icon: https://github.com/negru/upptime/blob/master/assets/favicon.ico
+    icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico
   - name: MD2
     url: https://md2.hostdent.com
-    icon: https://github.com/negru/upptime/blob/master/assets/favicon.ico
+    icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico
   - name: MD3
     url: https://md3.hostdent.com
-    icon: https://github.com/negru/upptime/blob/master/assets/favicon.ico
+    icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico
   - name: MT1
     url: http://mt1.hostdent.com
-    icon: https://github.com/negru/upptime/blob/master/assets/favicon.ico
+    icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon-mt.ico
   - name: NS2
     url: http://ns2.hostdent.com
-    icon: https://github.com/negru/upptime/blob/master/assets/favicon.ico
+    icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico
   - name: NS4
     url: https://ns4.hostdent.com
-    icon: https://github.com/negru/upptime/blob/master/assets/favicon.ico
+    icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico
     check: "tcp-ping"
-    port: 80 
+    port: 80
+    maxResponseTime: 3000
+  - name: NS7
+    url: https://ns7.hostdent.com
+    icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico
+    check: "tcp-ping"
+    port: 80
+    maxResponseTime: 3000    
+    #expectedStatusCodes:
+    #  - 401
+    #__dangerous__insecure: true    
                 
 status-website:
   robotsText: "User-agent: * \n Disallow: /"
@@ -32,8 +42,8 @@ status-website:
       content: "noindex"
   cname: status.hostdent.com
   # baseUrl: /upptime
-  logoUrl: https://github.com/negru/upptime/blob/master/assets/md.svg
-  favicon: https://github.com/negru/upptime/blob/master/assets/favicon.ico
+  logoUrl: https://raw.githubusercontent.com/negru/upptime/master/assets/md.svg
+  favicon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico
   name: HD & MD Status
   introTitle: "**Status**"
   introMessage: HD & MD
@@ -43,30 +53,6 @@ status-website:
       
 i18n:
   footer: © 2022 HD & MD
-  
-env:
-  NOTIFICATION_SLACK: ${{ secrets.NOTIFICATION_SLACK }} 
-  NOTIFICATION_SLACK_WEBHOOK: ${{ secrets.NOTIFICATION_SLACK_WEBHOOK }} 
-  NOTIFICATION_SLACK_WEBHOOK_URL: ${{ secrets.NOTIFICATION_SLACK_WEBHOOK_URL }}
-  NOTIFICATION_TELEGRAM: ${{ secrets.NOTIFICATION_TELEGRAM }} 
-  NOTIFICATION_TELEGRAM_BOT_KEY: ${{ secrets.NOTIFICATION_TELEGRAM_BOT_KEY }} 
-  NOTIFICATION_TELEGRAM_CHAT_ID: ${{ secrets.NOTIFICATION_TELEGRAM_CHAT_ID }}  
-  NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
-  NOTIFICATION_EMAIL_FROM: ${{ secrets.NOTIFICATION_EMAIL_FROM }}
-  NOTIFICATION_EMAIL_SMTP: ${{ secrets.NOTIFICATION_EMAIL_SMTP }}
-  NOTIFICATION_EMAIL_TO: ${{ NOTIFICATION_EMAIL_TO }}  
-# Notification Strategy
-  NOTIFICATION_SLACK_STRATEGY: roundrobin
-  NOTIFICATION_TELEGTAM_STRATEGY: roundrobin
-  NOTIFICATION_EMAIL_STRATEGY: roundrobin
 
-workflowSchedule:
-  graphs: "0 0 * * *"  # default
-  responseTime: "0 23 * * *"  # default
-  staticSite: "0 0 * * *"  # default
-  summary: "0 0 * * *"  # default
-  updateTemplate: "0 1 * * *"  # default: 00:00
-  updates: "0 4 * * *"  # default: 03:00
-  uptime: "*/5 * * * *"  # default
 
 # https://upptime.js.org/docs/configuration
