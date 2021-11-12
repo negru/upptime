@@ -12,8 +12,8 @@ sites:
     url: http://mt1.hostdent.com 
   - name: NS2
     url: http://ns2.hostdent.com
-  - name: NS45
-    url: http://ns45.hostdent.com    
+  - name: NS46
+    url: http://ns46.hostdent.com    
         
 status-website:
   cname: status.hostdent.com
@@ -26,16 +26,7 @@ status-website:
   navbar:
     - title: Top
       href: /
-
-notifications:
-  #- type: email
-  - type: telegram
-    channel: status
-
-assignees: 
-  - negru
-  - JonathanStregger
-  
+      
 i18n:
   footer: © 2022 HD & MD
   
