@@ -19,6 +19,7 @@ status-website:
   cname: status.hostdent.com
   # baseUrl: /upptime
   logoUrl: https://marketdental.com/public/images/favicons/safari-pinned-tab.svg
+  favicon: https://marketdental.com/public/images/favicon/favicon.ico
   name: HD & MD Status
   introTitle: "**Status**"
   introMessage: HD & MD
