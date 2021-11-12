@@ -27,8 +27,8 @@ status-website:
     - title: #
       href: /
 
-NOTIFICATION_TELEGRAM: true
-NOTIFICATION_EMAIL: true
+notifications:
+  - type: telegram
 
 assignees: 
   - negru
