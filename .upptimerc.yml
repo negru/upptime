@@ -3,17 +3,25 @@ repo: upptime
 
 sites:
   - name: MD1
-    url: http://md1.${{ secrets.URL_HD }}
+    url: http://md1.hostdent.com
+    icon: https://github.com/negru/upptime/blob/master/assets/favicon.ico
   - name: MD2
-    url: https://md2.${{ secrets.URL_HD }}
+    url: https://md2.hostdent.com
+    icon: https://github.com/negru/upptime/blob/master/assets/favicon.ico
   - name: MD3
-    url: https://md3.${{ secrets.URL_HD }}
+    url: https://md3.hostdent.com
+    icon: https://github.com/negru/upptime/blob/master/assets/favicon.ico
   - name: MT1
-    url: http://mt1.${{ secrets.URL_HD }} 
+    url: http://mt1.hostdent.com
+    icon: https://github.com/negru/upptime/blob/master/assets/favicon.ico
   - name: NS2
-    url: http://ns2.${{ secrets.URL_HD }}
+    url: http://ns2.hostdent.com
+    icon: https://github.com/negru/upptime/blob/master/assets/favicon.ico
   - name: NS4
-    url: https://ns4.${{ secrets.URL_HD }}    
+    url: https://ns4.hostdent.com
+    icon: https://github.com/negru/upptime/blob/master/assets/favicon.ico
+    check: "tcp-ping"
+    port: 80 
                 
 status-website:
   robotsText: "User-agent: * \n Disallow: /"
@@ -24,8 +32,8 @@ status-website:
       content: "noindex"
   cname: status.hostdent.com
   # baseUrl: /upptime
-  logoUrl: https://marketdental.com/public/images/favicons/safari-pinned-tab.svg
-  favicon: https://marketdental.com/public/images/favicon/favicon.ico
+  logoUrl: https://github.com/negru/upptime/blob/master/assets/md.svg
+  favicon: https://github.com/negru/upptime/blob/master/assets/favicon.ico
   name: HD & MD Status
   introTitle: "**Status**"
   introMessage: HD & MD
@@ -51,5 +59,14 @@ env:
   NOTIFICATION_SLACK_STRATEGY: roundrobin
   NOTIFICATION_TELEGTAM_STRATEGY: roundrobin
   NOTIFICATION_EMAIL_STRATEGY: roundrobin
+
+workflowSchedule:
+  graphs: "0 0 * * *"  # default
+  responseTime: "0 23 * * *"  # default
+  staticSite: "0 0 * * *"  # default
+  summary: "0 0 * * *"  # default
+  updateTemplate: "0 1 * * *"  # default: 00:00
+  updates: "0 4 * * *"  # default: 03:00
+  uptime: "*/5 * * * *"  # default
 
 # https://upptime.js.org/docs/configuration
