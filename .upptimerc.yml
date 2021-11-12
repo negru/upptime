@@ -26,7 +26,11 @@ status-website:
     - title: Status
       href: /upptime
 
+NOTIFICATION_TELEGRAM: true
+NOTIFICATION_EMAIL: true
+
 assignees: 
+  - negru
   - JonathanStregger
   
 # https://upptime.js.org/docs/configuration
