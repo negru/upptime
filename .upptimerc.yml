@@ -25,7 +25,7 @@ status-website:
   introMessage: HD & MD
   navbar:
     - title: Top
-      href: /#
+      href: /
 
 notifications:
   - type: email
