@@ -14,7 +14,9 @@ sites:
     url: http://ns2.hostdent.com
   - name: NS4
     url: https://ns4.hostdent.com    
-        
+  - name: DP
+    url: https://dentpedia.ca    
+                
 status-website:
   robotsText: "User-agent: * \n Disallow: /"
   metaTags:
