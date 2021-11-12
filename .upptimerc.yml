@@ -12,8 +12,8 @@ sites:
     url: http://mt1.hostdent.com 
   - name: NS2
     url: http://ns2.hostdent.com
-  - name: NS42
-    url: http://ns42.hostdent.com    
+  - name: NS43
+    url: http://ns43hostdent.com    
         
 status-website:
   cname: status.hostdent.com
@@ -30,6 +30,7 @@ status-website:
 notifications:
   - type: email
   - type: telegram
+    channel: status
 
 assignees: 
   - negru
