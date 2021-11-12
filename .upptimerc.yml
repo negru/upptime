@@ -24,10 +24,11 @@ status-website:
   introTitle: "**Status**"
   introMessage: HD & MD
   navbar:
-    - title: #
+    - title: 
       href: /
 
 notifications:
+  - type: email
   - type: telegram
 
 assignees: 
