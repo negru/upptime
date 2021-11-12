@@ -24,8 +24,8 @@ status-website:
   introTitle: "**Status**"
   introMessage: HD & MD
   navbar:
-    - title: 
-      href: /
+    - title: Top
+      href: /#
 
 notifications:
   - type: email
