@@ -20,9 +20,9 @@ sites:
   - name: NS4
     url: https://ns4.hostdent.com
     icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico
-    check: "tcp-ping"
-    port: 80
-    maxResponseTime: 3000
+    #check: "tcp-ping"
+    #port: 80
+    #maxResponseTime: 3000
   - name: NS7
     url: https://ns7.hostdent.com
     icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico
