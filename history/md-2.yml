@@ -1,7 +1,7 @@
-url: https://md2.hostdent.com
-status: up
-code: 200
-responseTime: 215
-lastUpdated: 2021-11-12T17:46:17.653Z
+url: https://md2.${{ secrets.URL_HD }}
+status: down
+code: 0
+responseTime: 0
+lastUpdated: 2021-11-12T17:58:07.529Z
 startTime: Fri Nov 12 2021 06:19:46 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
