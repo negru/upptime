@@ -30,5 +30,8 @@ status-website:
 i18n:
   footer: © 2022 HD & MD
   
+NOTIFICATION_SLACK_STRATEGY: roundrobin
+NOTIFICATION_TELEGTAM_STRATEGY: roundrobin
+NOTIFICATION_EMAIL_STRATEGY: roundrobin
 
 # https://upptime.js.org/docs/configuration
