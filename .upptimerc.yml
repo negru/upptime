@@ -3,19 +3,17 @@ repo: upptime
 
 sites:
   - name: MD1
-    url: http://md1.hostdent.com
+    url: http://md1.${{ secrets.URL_HD }}
   - name: MD2
-    url: https://md2.hostdent.com
+    url: https://md2.${{ secrets.URL_HD }}
   - name: MD3
-    url: https://md3.hostdent.com
+    url: https://md3.${{ secrets.URL_HD }}
   - name: MT1
-    url: http://mt1.hostdent.com 
+    url: http://mt1.${{ secrets.URL_HD }} 
   - name: NS2
-    url: http://ns2.hostdent.com
+    url: http://ns2.${{ secrets.URL_HD }}
   - name: NS4
-    url: https://ns4.hostdent.com    
-  - name: DP
-    url: https://dentpedia.ca    
+    url: https://ns4.${{ secrets.URL_HD }}    
                 
 status-website:
   robotsText: "User-agent: * \n Disallow: /"
