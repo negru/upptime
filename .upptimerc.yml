@@ -3,28 +3,34 @@ repo: upptime
 
 sites:
   - name: MD1
-    url: http://md1.hostdent.com  
-    icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico   
-  - name: MD2
-    url: https://md2.hostdent.com   
-    icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico   
-  - name: MD3
-    url: https://md3.hostdent.com 
+    url: http://208.68.19.203
     icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico
+    
+  - name: MD2
+    url: http://208.68.19.206   
+    icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico
+    
+  - name: MD3
+    url: http://208.68.19.201 
+    icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico
+    
   - name: MT1
-    url: http://mt1.hostdent.com   
+    url: http://216.70.123.136   
     icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon-mt.ico
+    
   - name: NS2
-    url: http://ns2.hostdent.com
-    icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico    
+    url: http://172.67.161.84
+    icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico
+    
   - name: NS4
-    url: https://ns4.hostdent.com
+    url: http://208.68.19.204
     icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico
     check: "tcp-ping"
     port: 80
     maxResponseTime: 3000
+    
   - name: NS7
-    url: https://ns7.hostdent.com
+    url: http://68.148.200.253
     icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico
     check: "tcp-ping"
     port: 80
