@@ -100,19 +100,19 @@
     "url": "http://mt1.hostdent.com/",
     "icon": "https://raw.githubusercontent.com/negru/upptime/master/assets/favicon-mt.ico",
     "slug": "mt-1",
-    "status": "down",
-    "uptime": "100.00%",
-    "uptimeDay": "99.99%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
+    "status": "up",
+    "uptime": "99.98%",
+    "uptimeDay": "98.96%",
+    "uptimeWeek": "99.85%",
+    "uptimeMonth": "99.97%",
+    "uptimeYear": "99.98%",
     "time": 118,
-    "timeDay": 112,
-    "timeWeek": 140,
-    "timeMonth": 115,
+    "timeDay": 144,
+    "timeWeek": 145,
+    "timeMonth": 117,
     "timeYear": 118,
     "dailyMinutesDown": {
-      "2022-01-02": 0
+      "2022-01-02": 15
     }
   },
   {
