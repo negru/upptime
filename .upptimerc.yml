@@ -2,25 +2,47 @@ owner: negru
 repo: upptime 
 
 sites:
-  - name: MD1
+  - name: ns1
     url: http://208.68.19.203
     icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico
+    check: "tcp-ping"
+    port: 80
+    maxResponseTime: 3000
+    
+  - name: MD1
+    url: http://208.68.19.200  
+    icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico
+    check: "tcp-ping"
+    port: 80
+    maxResponseTime: 3000
     
   - name: MD2
     url: http://208.68.19.206   
     icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico
+    check: "tcp-ping"
+    port: 80
+    maxResponseTime: 3000
     
   - name: MD3
     url: http://208.68.19.201 
     icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico
+    check: "tcp-ping"
+    port: 80
+    maxResponseTime: 3000
     
   - name: MT1
     url: http://mt1.hostdent.com/   
     icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon-mt.ico
+    check: "tcp-ping"
+    port: 80
+    maxResponseTime: 3000
     
   - name: NS2
     url: https://ns2.hostdent.com
     icon: https://raw.githubusercontent.com/negru/upptime/master/assets/favicon.ico
+    check: "tcp-ping"
+    port: 80
+    maxResponseTime: 3000
     
   - name: NS4
     url: http://208.68.19.204
